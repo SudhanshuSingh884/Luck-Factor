@@ -1,13 +1,112 @@
-h1,h2,label{
-    color: aliceblue;
-    text-align: center;
-
+body {
+    /* background-image: url("images/bggif.gif"); */
+    background-image: url("CapitalUnconsciousFluke-max-1mb.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-a{
-    text-align: center;
 
+.bodycenter {
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    background-image:url("CapitalUnconsciousFluke-max-1mb.gif")/* url("images/bggif.gif")*/;
 }
-body{
-    background-image:url("pngtree-skull-fire-logo-vector-png-image_4242624.jpg") ;
-    background-size:1350px 700px;
+
+.logoimg {
+    margin-top: 30px;
+    border-radius: 80px;
+    height: 120px;
+    width: 50%;
+}
+
+.border-none {
+    box-shadow: none!important;
+    border-radius: 70px;
+    height: 60px;
+    border: 3px solid black!important;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.border-none:focus {
+    border: 5px solid black!important;
+}
+
+.btn-primary {
+    height: 60px !important;
+    border-radius: 35px;
+    width: 100%;
+    background-color: #e09f03;
+    border: none;
+    font-size: 24px;
+    font-family: 'Nerko One', cursive;
+}
+
+.btn-primary:hover {
+    background-color: #e09f03;
+}
+
+.btn-primary:focus {
+    box-shadow: none!important;
+    border: none;
+    background-color: #e09f03;
+}
+
+.btn-primary:active {
+    box-shadow: none;
+    background-color: #e09f03;
+}
+
+.scoreb {
+    width: 90px;
+    height: 90px;
+    font-size: 45px;
+    border-radius: 25px;
+    cursor: none!important;
+    color: white;
+    font-family: 'Nerko One', cursive;
+}
+
+#won {
+    background-color: #009F2E;
+}
+
+#lose {
+    background-color: #c70039;
+}
+
+#chance {
+    background-color: #2399c6;
+    /* color: #2399c6; */
+}
+
+.imgbg {
+    background-image: url("images/giphy.gif");
+}
+
+#end {
+    position: absolute;
+    top: -290px;
+    display: none;
+}
+
+#result {
+    font-family: 'Nerko One', cursive;
+    display: none;
+}
+
+.restart {
+    width: 100%;
+    background: red;
+    cursor: pointer!important;
+    outline: none!important;
+}
+
+.fheading {
+    font-family: 'Nerko One', cursive;
+}
+
+.hidden {
+    display: none;
 }
