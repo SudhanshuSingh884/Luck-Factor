@@ -3,7 +3,12 @@ body {
     background-image: url("CapitalUnconsciousFluke-max-1mb.gif");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
+.container{
+    background-image:none;
+}
+
 
 .bodycenter {
     width: 50%;
@@ -14,7 +19,7 @@ body {
 
 .logoimg {
     margin-top: 30px;
-    border-radius: 80px;
+    
     height: 120px;
     width: 50%;
 }
@@ -62,6 +67,7 @@ body {
     width: 90px;
     height: 90px;
     font-size: 45px;
+    text-align: center;
     border-radius: 25px;
     cursor: none!important;
     color: white;
@@ -76,10 +82,13 @@ body {
     background-color: #c70039;
 }
 
+
 #chance {
+    text-align: center;
     background-color: #2399c6;
     /* color: #2399c6; */
 }
+
 
 .imgbg {
     background-image: url("images/giphy.gif");
@@ -87,7 +96,7 @@ body {
 
 #end {
     position: absolute;
-    top: -290px;
+    top: -350px;
     display: none;
 }
 
@@ -95,9 +104,18 @@ body {
     font-family: 'Nerko One', cursive;
     display: none;
 }
+.audio
+		{
+			height:100px;
+			width:100px;
+          
+			
+		}
 
 .restart {
-    width: 100%;
+    
+    width: 40%;
+    text-align: center;
     background: red;
     cursor: pointer!important;
     outline: none!important;
